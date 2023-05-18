@@ -1,0 +1,53 @@
+@charset   "UTF-8";
+
+body {
+  background-color: gray;
+}
+ 
+#wrap {
+  width: 960px;
+  margin: auto;
+  background-color: white;
+}
+ 
+header   {
+  padding: 40px;
+  height: 80px;
+}
+ 
+nav {
+  padding: 8px 40px;
+  background-color: black;
+  color: white;
+  transition-property: background-color;
+  transition-duration: .5s;
+}
+nav:hover {
+  background-color: dimgray;
+}
+ 
+main{
+  padding: 40px;
+  height : 400px;
+}
+ 
+footer   {
+  padding: 40px;
+  height: 40px;
+  background-color : black;
+  color: white;
+}
+
+.expansion {
+  width: 500px;
+  height: 300px;
+  overflow: hidden;
+}
+.expansion img {
+  width: 100%;
+  transition: transform .5s;
+}
+
+.expansion img:hover {
+  transform: scale(1.1);
+}
